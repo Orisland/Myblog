@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0;}
+.dt{
+	margin-top: 10px;
+	border-radius:10px;
+	border: #19EBE7;
+	border-style: double;
+}
+
+.line{
+	background-color:white;
+	margin-left:80px;
+	border-style: double;
+	height: 200px;
+	width: 200px;
+	float:left;
+}
+.login{
+	display: block;
+	float: right;
+	background-color: #19EBE7;
+	height: 30px;
+	width: 300px;
+	border-bottom-left-radius: 10px;
+	border-style: dashed;
+}
+
+.login1{
+	padding: 50px;
+	height: 300px;
+	width: auto;
+	margin: 120px;
+	border-style: double;
+	border-radius:10px;
+}
+
+.input{
+	resize: none;
+}
+
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.dyna{
+	border: #19EBE7;
+	border-style: double;
+	height: 50px;
+	width: 98%;
+}
+body{
+	background-image:url("../image/beijing.png");
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-origin: border-box;
+	background-size:cover;
+	margin: 0px;
+}
+
+.biaoti{
+	width: 100%;
+	text-align: center;
+	color: darkorange;
+	font-size: 200%;
+}
+
+nav{
+	padding-top:10px;
+	margin-top: 0px;
+	height:80px;
+	background-image: url("../image/导航栏5-23.png");
+	background-repeat:no-repeat;
+	background-position: left;
+	background-size:cover;
+}
+.daohang{
+	margin-top: 10px;
+	font-size: 150%;
+	overflow: hidden;
+}
+ul{
+	margin-top: 10px;
+	list-style-type: none;
+	padding: 0px;
+	width: auto;
+	height: 60px;
+	text-align:center;
+}
+.daohang2{
+	margin-top: 15px;
+}
+.daohang2 a:link,.daohang2 a:visited{
+	text-decoration: none;
+	color: black;
+	width: 50px;
+	text-align: center;
+}
+.daohang2 a:active,.daohang2 a:hover{
+	color:red;
+	font-weight: bold;
+}
+a.daohang1{
+	
+}
+li{
+	display: inline;
+	padding: 3px;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-size: 125%;
+}
+
+.image{
+	padding:0px;
+	border:5px solid #96c2f1;
+	width: 250px;
+	float:left;
+	text-align: center;
+	background:#eff7ff
+}
+img{
+	margin: 0px;
+}
+.image1{
+	height: 100px;
+}
+.image2{
+	float: left;
+}
+.text{
+	font-size: 30px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+text1{
+	font-size: 15px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.body1{
+	margin-top: 40px;
+	margin-left: 400px;
+	margin-right: 400px;
+	width: auto;
+	background-image:url("../image/未标题-2.png");
+	background-repeat: repeat;
+}
+
+.ly{
+	text-align: center;
+	background-color:white;
+	right: 20px;
+	border-style: double;
+	height: 350px;
+	width: 300px;
+	float:right;
+	margin-top: 400px;
+	margin-right: 35px;
+	background-size: cover;
+	background-repeat:no-repeat;
+	position:fixed;
+}
+
+.tongji1{
+	position:fixed;
+	margin:auto;
+	right:150px;
+	top:250px;
+	display: block;
+	padding-top:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100px;
+	height: 300px;
+	background-image:url("../image/tongji.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+.gif1{
+	margin: 0px;
+	position:fixed;
+	left:0;
+	right:0;
+	top:755px;
+	bottom:0;
+}
+.gif2{
+	margin-top: 25px;
+	float:left;
+	height: 60px;
+}
+
+.dongtai{
+	height: 100%;
+	background-image:url("../image/未标题-2.png");
+	background-repeat: repeat;
+}
+
+.dongtaikuang{
+	margin-top:0px;
+	margin-left: 80px;
+	float: left;
+}
+.dongtaikuang2{
+	margin-left:0px;
+	margin-top: 0px;
+}
+.dongtaikuang3{
+	padding: 0px;
+	margin-left: 100px;
+}
+.dongtaikuang4{
+	padding: 0px;
+	margin-top: 25px;
+	margin-left: 80px;
+	border: groove;
+	margin-right: 0px;
+	height: 150px;
+	width: 650px;
+}
+.dongtaikuang45{
+	padding: 0px;
+	margin-top: 25px;
+	margin-left: 80px;
+	border: groove;
+	margin-right: 0px;
+	height: 720px;
+	width: 900px;
+}
+.dongtaikuang5{
+    padding: 0px;
+    margin-left: 525px;
+    margin-top: -20px;
+}
+.dongtaikuang5 a:link,.dongtaikuang5 a:visited{
+	text-decoration: none;
+	color: black;
+	width: 50px;
+	text-align: center;
+}
+.dongtaikuang5 a:active,.dongtaikuang5 a:hover{
+	background-image: url("../image/赞.png");
+	background-repeat:no-repeat;
+	color:red;
+	font-size:150%;
+	font-family:  "楷体";
+	font-weight: bold;
+}
+.dongtaikuang6{
+	padding: 0px;
+	margin-top: 25px;
+	margin-left: 80px;
+	border: groove;
+	margin-right: 0px;
+	height: 1850px;
+	width: 900px;
+	margin-bottom: 100px;
+}
+.dongtaikuang7{
+    padding: 0px;
+    margin-left: 525px;
+    margin-top: -32px;
+}
+.dongtaikuang7 a:link,.dongtaikuang7 a:visited{
+	text-decoration: none;
+	color: black;
+	width: 50px;
+	text-align: center;
+}
+.dongtaikuang7 a:active,.dongtaikuang7 a:hover{
+	background-image: url("../image/赞.png");
+	background-repeat:no-repeat;
+	color:red;
+	font-size:150%;
+	font-family:  "楷体";
+	font-weight: bold;
+}
+.text2{
+	margin-top:0px;
+}
+.kong{
+	margin-left: 10px;
+}
+.xiangce{
+	margin-left: 10px;
+	padding: 5px;
+	column-count: 4;
+	-webkit-column-width:auto;
+	-webkit-column-gap:5px;
+	column-gap: 5px;
+	overflow: auto;
+	border: double;
+}
+.xiangce div div{
+	width: 250px;
+	margin: 5px 0;
+	height:100%;
+	overflow:auto;
+	border:3px solid #a9c9e2;
+	background:#e8f5fe
+}
+.xiangce p{
+	text-align: center;
+	margin: 0px;
+}
+.mulu{
+	width: 300px;
+	padding-left: 5px;
+	position:fixed;
+	margin:auto;
+	left:36px;
+	top:380px;
+	border:5px solid #96c2f1;
+	text-align: center;
+	background:#eff7ff
+	
+}
+.mulu a:link,.mulu a:visited{
+	text-decoration: none;
+	color: black;
+	width: 50px;
+	text-align: center;
+}
+.mulu a:active,.mulu a:hover{
+	background-repeat:no-repeat;
+	color:red;
+	font-weight: bold;}
+.music{
+	float: left;
+	width: 100px;
+	height: auto;
+	position:fixed;
+	margin:auto;
+	left:0px;
+	top:200px;
+}
+.top{
+	position: fixed;
+	margin:auto;
+	left:60px;
+	bottom:220px;
+}
+.top img{
+	width: 100px;
+}

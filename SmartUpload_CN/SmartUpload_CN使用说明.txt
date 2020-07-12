@@ -1,0 +1,30 @@
+
+初始化，最后一个参数可以不写，默认为utf-8
+SmartUpload mySmartUpload = new SmartUpload(config, request, response,"UTF-8");	
+
+设置允许的后缀，可以不设置，即表示全部。不区分大小写，用逗号隔开（事实上，用什么隔开都可以）	
+mySmartUpload.setAllowedExt("bmp,JPG,tif");
+
+取数据，同request取值类似，两种取法，一种得到string，一种得到string数组
+String movie_name = mySmartUpload.getParameter("movie_name");	
+String[] movie_names = mySmartUpload.getParameterValues("movie_name");	
+   
+
+保存文件，有两种
+
+一是存单个文件（当页面上多个上传File时，取第一个）
+第一个参数传文件存的相对路径（基于WebRoot这一级以后）
+第二个参数是文件名，文件名为null或是""时，使用上传文件原名。
+例如"first"，则实际上传后会是first+原文件后缀名
+而"firts.jpg",则实际上传后会是first.jpg
+返回值：上传后，实际保存的文件名。
+String fileName = mySmartUpload.saveFile("upload", "");
+
+保存多个文件(依照页面上的File顺序)
+第一个相对路径，同上
+第二个是数组，各个文件的名称，规则同上
+返回参数，是各个保存文件的实际名称
+注意
+当页面上两个File，第一个未传文件，第二个传文件
+则返回值，第一个为null,第二个有值
+String[] filenames = mySmartUpload.saveFiles("upload", new String[]{"last",""});
